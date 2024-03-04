@@ -224,11 +224,11 @@ body {
   margin-right: -15px;
 }
 .menu-item-tile .menu-item-price span {
-  font-size: .6em;
+  font-size: 0.6em;
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3F0C1F; 
+  border: 2px solid #3f0c1f;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -251,7 +251,7 @@ h3.menu-item-title {
   margin: 0 0 10px;
 }
 .menu-item-details {
-  font-size: .9em;
+  font-size: 0.9em;
   font-style: italic;
 }
 /* END SINGLE CATEGORY PAGE */
