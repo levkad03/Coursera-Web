@@ -1,7 +1,11 @@
-var JackGreeter = {};
+(function () {
+  var JackGreeter = {};
+  var greeting = "Hi ";
+  JackGreeter.name = "Jack";
 
-JackGreeter.name = "Jack";
+  JackGreeter.sayHi = function () {
+    console.log(greeting + JackGreeter.name);
+  };
 
-JackGreeter.sayHi = function () {
-  console.log("Hi " + JackGreeter.name);
-};
+  window.JackGreeter = JackGreeter;
+})(window);
